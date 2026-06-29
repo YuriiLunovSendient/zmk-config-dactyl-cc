@@ -117,7 +117,7 @@
               &kp GRAVE     &kp NUBS      &kp LEFT      &kp RIGHT                                 &kp UP        &kp DOWN      &kp LBKT      &kp RBKT
                                                         &mt LGUI LGUI &kp LALT      &kp RALT      &mt RGUI RGUI
                                                                       &kp LCTRL     &kp RCTRL
-                                          &kp BSPC      &bsdel        &lt KFUN PG_UP &lt KSET PG_DN &kp ENTER   &kp SPACE
+                                          &bsdel        &kp DEL       &lt KFUN PG_UP &lt KSET PG_DN &kp ENTER   &kp SPACE
                      >;
               };
 
