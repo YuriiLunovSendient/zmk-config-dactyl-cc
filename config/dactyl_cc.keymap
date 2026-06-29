@@ -13,9 +13,6 @@
 #define GC(key)      LG(LC(key)) // LGUI+LCTRL
 
 // Shortcuts
-#define SP           SPACE
-#define ALTGR        RALT
-
 #define BRI_DN       C_BRIGHTNESS_DEC
 #define BRI_UP       C_BRIGHTNESS_INC
 #define VOL_UP       C_VOLUME_UP
@@ -115,12 +112,12 @@
                      bindings = <
 &kp EQUAL     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5        &kp N6        &kp N7        &kp N8        &kp N9        &kp N0        &kp MINUS
 &kp TAB       &kp Q         &kp W         &kp E         &kp R         &kp T         &kp Y         &kp U         &kp I         &kp O         &kp P         &kp LBKT
-&kp ESC       &hml LGUI A   &hml LALT S   &hml LCTRL D  &hml LSHFT F  &kp G         &kp H         &hmr RSHFT J  &hmr RCTRL K  &hmr RALT L   &hmr RGUI SEMI &kp SQT
+&kp ESC       &hml LCTRL A  &hml LALT S   &hml LGUI D   &hml LSHFT F  &kp G         &kp H         &hmr RSHFT J  &hmr RGUI K   &hmr RALT L   &hmr RCTRL SEMI &kp SQT
 &kp LSHFT     &kp Z         &kp X         &kp C         &kp V         &kp B         &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &kp RSHFT
               &kp GRAVE     &kp NUBS      &kp LEFT      &kp RIGHT                                 &kp UP        &kp DOWN      &kp LBKT      &kp RBKT
                                                         &mt LGUI LGUI &kp LALT      &kp RALT      &mt RGUI RGUI
                                                                       &kp LCTRL     &kp RCTRL
-                                          &kp BSPC      &kp DEL       &lt KFUN PG_UP &lt KSET PG_DN &kp ENTER   &kp SPACE
+                                          &kp BSPC      &bsdel        &lt KFUN PG_UP &lt KSET PG_DN &kp ENTER   &kp SPACE
                      >;
               };
 
